@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/logo1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1" />
+	<TextView
+		android:text="Registration"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/lblRegistration"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textSize="80px" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtFirstname"
+		android:layout_marginVertical="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginHorizontal="10dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="10dp"
+		android:hint="First Name" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtLastname"
+		android:layout_marginVertical="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginHorizontal="10dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="10dp"
+		android:hint="Last Name" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtAddress"
+		android:layout_marginVertical="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginHorizontal="10dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="10dp"
+		android:hint="Address" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtEmail"
+		android:layout_marginVertical="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginHorizontal="10dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="10dp"
+		android:hint="E Mail" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtPassword"
+		android:layout_marginVertical="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginHorizontal="10dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="10dp"
+		android:hint="Password" />
+	<Button
+		android:text="Register User"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnCreate" />
+
+</LinearLayout>
